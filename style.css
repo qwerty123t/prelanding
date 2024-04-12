@@ -7,7 +7,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: 1fr 80% 1fr;
-    /* overflow: hidden; */
+    overflow: hidden;
     height: 100vh;
     height: 100svh;
 }
@@ -37,6 +37,8 @@ canvas {
         color: white;
         font-family: system-ui, sans-serif;
         cursor: none;
+        margin: auto;
+        margin: 0 auto auto auto;
     } 
 
 
@@ -78,6 +80,8 @@ a {
         color: white;
         font-family: system-ui, sans-serif;
         cursor: none;
+        margin: 0 auto auto auto;
+        
     }
     
     
