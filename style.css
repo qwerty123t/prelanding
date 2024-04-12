@@ -38,33 +38,32 @@ canvas {
         color: white;
         font-family: system-ui, sans-serif;
         cursor: none;
-        margin: auto;
         margin: 0 auto auto auto;
     } 
 
 
-p {
-    margin-top: 30px;
-}
+    p {
+        margin-top: 30px;
+    }
 
-a {
-    grid-row: 3 / 4;
-    grid-column: 2 / 3;
-    z-index: 1;
-    margin-top: 30px;
-    margin: 30px auto 0 auto;
-    color: black;
-    background-color: white;
-    width: 200px;
-    height: 70px;
-    border: 0px solid;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    font-family: system-ui, sans-serif;
-}
+    a {
+        grid-row: 3 / 4;
+        grid-column: 2 / 3;
+        z-index: 1;
+        margin-top: 30px;
+        margin: 30px auto 0 auto;
+        color: black;
+        background-color: white;
+        width: 200px;
+        height: 70px;
+        border: 0px solid;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-family: system-ui, sans-serif;
+    }
 
 }
 
@@ -82,7 +81,6 @@ a {
         font-family: system-ui, sans-serif;
         cursor: none;
         margin: 0 auto auto auto;
-        
     }
     
     

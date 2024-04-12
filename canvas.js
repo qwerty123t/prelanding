@@ -1,5 +1,5 @@
-const MAX_PARTICLE_COUNT = 100; // orange
-const MAX_TRAIL_COUNT = 32; // blue
+let MAX_PARTICLE_COUNT = 100; // orange
+let MAX_TRAIL_COUNT = 32; // blue
 
 const colorScheme = ["#E69F66", "#DF843A", "#D8690F", "#B1560D", "#8A430A"]; // orange colors
 
@@ -128,6 +128,13 @@ function setup() {
 	console.log(`initialWidth = ${initialWidth}`);
 	console.log(`initialHeight = ${initialHeight}`);
 	pixelDensity(1);
+
+	// оптимизация для больших экранов
+	if (initialWidth >= '700') {
+		 MAX_PARTICLE_COUNT = 60; // orange
+		 MAX_TRAIL_COUNT = 30; // blue
+
+	}
 	// если экран горизонтальный, то создаёт канвас размером с экран
 	// если экран вертикальный (как на смартфонах), то создается квадратный канвас
 	// (это необходимо чтобы при повороте экрана смартфона в горизонтальный режим, 
