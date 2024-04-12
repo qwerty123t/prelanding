@@ -133,21 +133,21 @@ function setup() {
 	// (это необходимо чтобы при повороте экрана смартфона в горизонтальный режим, 
 	// канвас не становился гигантским и не отображающем эффекты)
 	
-	if (min(initialHeight, initialWidth) <= '700') {
-		canvasAspectRatio = 1;
-		canvas= createCanvas(
-			max(windowWidth, windowHeight),
-			max(windowWidth, windowHeight),
-			WEBGL,
-			myCanvas);
-	} else {
+	// if (min(initialHeight, initialWidth) <= '700') {
+	// 	canvasAspectRatio = 1;
+	// 	canvas= createCanvas(
+	// 		max(windowWidth, windowHeight),
+	// 		max(windowWidth, windowHeight),
+	// 		WEBGL,
+	// 		myCanvas);
+	// } else {
 		canvasAspectRatio = windowWidth / windowHeight;
 		canvas= createCanvas(
 			windowWidth,
 			windowHeight,
 			WEBGL,
 			myCanvas);
-	}
+	// }
 	// oncontextmenu = () => false;
 	noCursor();
 
