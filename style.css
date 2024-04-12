@@ -44,6 +44,7 @@ canvas {
 
     p {
         margin-top: 30px;
+        text-wrap: pretty;
     }
 
     a {
@@ -87,6 +88,7 @@ canvas {
     
     p {
         margin-top: 30px;
+        text-wrap: pretty;
     }
     
     a {
