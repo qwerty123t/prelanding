@@ -30,6 +30,7 @@ div {
     text-align: center;
     color: white;
     font-family: system-ui, sans-serif;
+    cursor: none;
 }
 
 

@@ -1,6 +1,3 @@
-// 1) РАЗНОЦВЕТНЫЙ
-// можно включить вибрацию на смартфоне
-
 const MAX_PARTICLE_COUNT = 100; // orange
 const MAX_TRAIL_COUNT = 32; // blue
 
