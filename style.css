@@ -11,6 +11,8 @@ body {
     height: 100vh;
     height: 100svh;
     user-select: none; 
+    color-scheme: dark;
+    background-color: black;
 }
 
 canvas {
